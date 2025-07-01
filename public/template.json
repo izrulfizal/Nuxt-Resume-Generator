@@ -1,6 +1,7 @@
 {
   "name": "Your Full Name",
   "title": "Your Job Title",
+  "imageUrl": "https://example.com/your-image.jpg",
   "contact": {
     "email": "your.email@example.com",
     "phone": "+60-123-456-789",

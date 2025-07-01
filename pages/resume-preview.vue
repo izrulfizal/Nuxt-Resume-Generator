@@ -13,6 +13,10 @@
         <p><strong>GitHub:</strong> <a :href="resume.contact.github" target="_blank">{{ resume.contact.github }}</a></p>
         <p><strong>Location:</strong> {{ resume.contact.location }}</p>
       </div>
+    <div class="box">
+        <img :src=resume.imageUrl alt="">
+
+      </div>
 
       <div class="box wide">
         <h3>Summary</h3>
@@ -124,6 +128,13 @@ onMounted(() => {
   margin-top: 0;
   color: #0057a3;
 }
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 
 .box.wide {
   grid-column: span 2;
