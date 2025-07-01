@@ -153,7 +153,7 @@ a:hover {
 }
 .page-wrapper {
   min-height: 100vh;
-  background-color: #343c4d; /* dark gray (like Tailwind's gray-900) */
+  background-color: #b3deff; /* dark gray (like Tailwind's gray-900) */
   display: flex;
   align-items: center;
   justify-content: center;
