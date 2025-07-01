@@ -1,0 +1,35 @@
+{
+  "name": "Your Full Name",
+  "title": "Your Job Title",
+  "contact": {
+    "email": "your.email@example.com",
+    "phone": "+60-123-456-789",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername",
+    "location": "Your City, Country"
+  },
+  "summary": "A short paragraph about yourself and what you do.",
+  "skills": ["Skill 1", "Skill 2", "Skill 3"],
+  "education": [
+    {
+      "institution": "Your University",
+      "degree": "Your Degree",
+      "year": "Year Started - Year Graduated"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Company Name",
+      "position": "Job Title",
+      "period": "Start Date - End Date",
+      "responsibilities": ["Task 1", "Task 2"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "description": "Short description of the project.",
+      "url": "https://link-to-project.com"
+    }
+  ]
+}

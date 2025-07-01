@@ -3,6 +3,9 @@
     <h1>IzFiz Resume Generator!</h1>
     <p>Please upload your JSON file here</p>
     <input type="file" accept=".json" @change="handleFileUpload" />
+    <a href="/template.json" download class="download-btn">
+      📄 Download Template JSON
+    </a>
   </div>
 </template>
 
@@ -43,5 +46,19 @@ const handleFileUpload = (event: Event) => {
   border: 2px solid black;
   margin:auto;
   border-radius: 10px;
+}
+.download-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #2563eb; /* Tailwind blue-600 */
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.2s;
+}
+.download-btn:hover {
+  background-color: #1e40af; /* Tailwind blue-800 */
 }
 </style>
